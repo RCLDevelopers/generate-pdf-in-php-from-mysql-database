@@ -6,6 +6,6 @@ class Database
     public $connection;
     public function __construct()
     {
-        $this->connection = new mysqli("localhost", "root", "", "codingbirds");
+        $this->connection = new mysqli("localhost", "root", "", "zangtics");
     }
 }
